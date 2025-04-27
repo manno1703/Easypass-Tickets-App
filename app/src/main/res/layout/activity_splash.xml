@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:backgroundTint="#EEFFE8FF">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape"
+            android:fontFamily="@font/bungee_shade"
+            android:gravity="center"
+            android:padding="35dp"
+            android:text="Welcome to EasyPass Tickets"
+            android:textColor="#090909"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:translationY="-2000dp" />
+
+        <!-- Right Image -->
+        <ImageView
+            android:id="@+id/imageRight"
+            android:layout_width="700dp"
+            android:layout_height="300dp"
+            android:src="@drawable/righthand"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:translationX="1000dp"/>
+
+        <!-- Left Image -->
+        <ImageView
+            android:id="@+id/imageLeft"
+            android:layout_width="700dp"
+            android:layout_height="300dp"
+            android:src="@drawable/lefthand"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:translationX="-1000dp"/>
+
+
+
+        <!-- Welcome Text -->
+        <!-- Welcome Text (Signature) -->
+        <TextView
+            android:id="@+id/signature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed by Emmannuel Kinda"
+            android:textSize="18sp"
+            android:textColor="#D50E71"
+            android:gravity="center"
+            android:translationY="1000dp"
+            android:textStyle="bold"
+            android:padding="35dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

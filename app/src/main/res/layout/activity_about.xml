@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#EDC283"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Easy Pass Tickets"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@drawable/shape"
+        android:padding="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="EasyPass Tickets is your go-to platform for seamless event ticketing. We make it easy to browse, purchase, and manage your event tickets with just a few clicks. Whether you're hosting an event or attending one, EasyPass Tickets ensures a smooth experience. Stay connected, enjoy the best events, and never miss out!"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speakButton"
+        android:text="Speak Out"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="27sp"
+        android:backgroundTint="#03A9F4"/>
+
+
+</LinearLayout>

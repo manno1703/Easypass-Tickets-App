@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEFFE8FF"
+    tools:context=".Signup">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#FFFCFC"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="Enter your Username"
+        android:textColorHint="#639292"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Enter your Email"
+        android:textColorHint="#639292"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:hint="Enter your phone number"
+        android:textColorHint="#639292"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Enter the password"
+        android:textColorHint="#639292"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:inputType="textVisiblePassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupButton"
+        android:text="Register"
+        android:textSize="27sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:backgroundTint="#673AB7"/>
+
+
+
+</LinearLayout>

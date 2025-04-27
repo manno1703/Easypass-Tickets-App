@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F7FF"
+    android:padding="16dp"
+    tools:context=".PaymentActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"
+        app:cardCornerRadius="16dp"
+        android:backgroundTint="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textEventName"
+                android:text="Product Name"
+                android:paddingTop="8dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:textColor="#333333"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/imgEvent"
+                android:src="@drawable/smart1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="12dp"
+                android:contentDescription="Event Image"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textEventCost"
+                android:layout_marginTop="16dp"
+                android:text="kes 100"
+                android:layout_marginLeft="10dp"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#673AB7"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/phone"
+        android:hint="Enter your phone number (e.g., 2547XXXXXXXX)"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:textSize="18sp"
+        android:background="#FFF"
+        android:padding="14dp"
+        android:textColorHint="#999"
+        android:textColor="#000"
+        android:inputType="phone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pay"
+        android:text="Pay Now"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="25sp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+
+
+</LinearLayout>

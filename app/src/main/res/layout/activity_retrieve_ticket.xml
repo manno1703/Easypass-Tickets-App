@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Your Ticket"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/inputPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter phone number (e.g. 2547...)"
+            android:background="@drawable/rounded_edittext"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:inputType="phone"
+            android:textColor="#000"
+            android:textColorHint="#888888"/>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Ticket"
+            android:textSize="18sp"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"/>
+
+        <TextView
+            android:id="@+id/ticketResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Ticket info will appear here"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
