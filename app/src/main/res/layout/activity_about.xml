@@ -5,43 +5,52 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="#EDC283"
+    android:background="#FFF3E0"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
     tools:context=".About">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="About Easy Pass Tickets"
-        android:textSize="30sp"
+        android:textSize="26sp"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:textColor="#000"
+        android:textColor="#333"
         android:background="@drawable/shape"
-        android:padding="12dp"/>
+        android:padding="16dp"
+        android:gravity="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
         android:text="EasyPass Tickets is your go-to platform for seamless event ticketing. We make it easy to browse, purchase, and manage your event tickets with just a few clicks. Whether you're hosting an event or attending one, EasyPass Tickets ensures a smooth experience. Stay connected, enjoy the best events, and never miss out!"
-        android:textSize="28sp"
-        android:textColor="#fff"
-        android:padding="12dp"
+        android:textSize="22sp"
+        android:textColor="#555"
+        android:lineSpacingExtra="6dp"
+        android:background="#FFFFFF"
+        android:padding="16dp"
         android:layout_marginTop="10dp"
-        android:textStyle="italic"/>
+        android:layout_marginBottom="24dp"
+        android:textStyle="italic"
+        android:backgroundTint="#FAFAFA"
+        android:elevation="2dp"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/speakButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Speak Out"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
         android:textSize="27sp"
-        android:backgroundTint="#03A9F4"/>
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFF"
+        android:elevation="4dp" />
 
 
 </LinearLayout>
